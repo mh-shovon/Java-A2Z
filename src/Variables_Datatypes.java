@@ -19,5 +19,9 @@ public class Variables_Datatypes {
         float floatSum = 0.0f;
         floatSum = floatNum1+floatNum2;
         System.out.println("Sum is: " +floatSum);
+
+        char charChar1 = 'A';
+        char charChar2 = 'B';
+        System.out.println(charChar1+""+charChar2);
     }
 }
