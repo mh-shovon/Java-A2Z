@@ -1,3 +1,4 @@
+package Practice;
 public class Variables_Datatypes {
     public static void main(String[] args) {
         String firstName="Mehedi";
