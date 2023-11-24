@@ -26,3 +26,5 @@ Git Command:
 6. git add .
 7. git commit -m "Practice Java Day-2"
 8. git push
+
+ Commit Message: Practice Java Day-
