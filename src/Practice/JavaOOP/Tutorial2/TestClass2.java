@@ -1,20 +1,19 @@
-package Practice.JavaOOP;
+package Practice.JavaOOP.Tutorial2;
 
-public class TestClass {
+public class TestClass2 {
     public static void main(String[] args) {
-        TeacherClass objectTeacher1 = new TeacherClass();
+        TecherClass2 objectTeacher1 = new TecherClass2();
         objectTeacher1.teacherName = "Md. Ashraful Islam";
         objectTeacher1.teacherGender = "Male"; 
         objectTeacher1.teacherAddress = "Dhaka";
         objectTeacher1.teacherPhone = 1700000000;
         objectTeacher1.printTeacherInfo();
 
-        TeacherClass objectTeacher2 = new TeacherClass();
-        objectTeacher2.teacherName = "Sudipto Chaki";
+        TecherClass2 objectTeacher2 = new TecherClass2();
+        objectTeacher2.teacherName = "Md. Mahabubul Islam";
         objectTeacher2.teacherGender = "Male"; 
         objectTeacher2.teacherAddress = "Dhaka";
         objectTeacher2.teacherPhone = 1800000000;
         objectTeacher2.printTeacherInfo();
-
     }
 }
