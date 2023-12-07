@@ -15,6 +15,9 @@ public class JavaMethodOverloading {
         double sum4 = addTwoNumber(5.5, 4.6);
         System.out.println("Integer Sum: " + sum3);
         System.out.println("Double Sum: " + sum4);
+
+        
+
     }
 
     //Without Overloading a method we can declare two method in this way.
