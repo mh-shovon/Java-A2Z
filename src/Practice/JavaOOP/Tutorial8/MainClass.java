@@ -1,5 +1,5 @@
 package Practice.JavaOOP.Tutorial8;
-
+//difference between constructor and method
 public class MainClass {
     public static void main(String[] args) {
         TestClass8 objStudent1 = new TestClass8();
