@@ -14,8 +14,8 @@ public class UserInput {
          System.out.println("The name of the student is: ");
          name = userInput.next();
 
-         System.out.println("Studen ID is: " + id);
-         System.out.println("Studen Name is: " + name);
+         System.out.println("Student ID is: " + id);
+         System.out.println("Student Name is: " + name);
 
          userInput.close();
 
