@@ -2,7 +2,7 @@ package Practice.JavaOOP.Tutorial1;
 
 public class TestClass {
     public static void main(String[] args) {
-        TeacherClass objectTeacher1 = new TeacherClass();
+        TeacherClass objectTeacher1 = new TeacherClass(); //declare and create an object
         objectTeacher1.teacherName = "Md. Ashraful Islam";
         objectTeacher1.teacherGender = "Male"; 
         objectTeacher1.teacherAddress = "Dhaka";

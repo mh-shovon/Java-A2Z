@@ -1,4 +1,7 @@
 package Practice.JavaBasicsTutorial;
+
+import java.util.Scanner;
+
 public class IfElse {
     public static void main(String[] args) {
         System.out.println("If Else Statement--->");
@@ -11,18 +14,22 @@ public class IfElse {
         }
 
         System.out.println("Else If Statement--->");
-        int time = 17;
-        if (time < 10) {
-            System.out.println("Good morning.");
-        } else if (time < 18) {
-            System.out.println("Good day.");
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter your age : ");
+        int age = input.nextInt();
+        if (age < 18) {
+            System.out.println("Not eligible for voting.");
+        } else if (age == 18) {
+            System.out.println("Eligible for voting. Just turned 18!");
         } else {
-            System.out.println("Good evening.");
+            System.out.println("Eligible for voting.");
         }
 
         System.out.println("Short Hand If...Else (Ternary Operator)--->");
-        int time1 = 20;
-        String result = (time1 < 18) ? "Good day." : "Good evening.";
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("Enter your age : ");
+        int userAge = userInput.nextInt();
+        String result = (userAge > 18) ? "Eligible for voting." : "Not eligible for voting.";
         System.out.println(result);
     }
 }

@@ -1,5 +1,5 @@
 package Practice.JavaBasicsTutorial;
-public class StringPractice {
+public class  StringPractice {
     public static void main(String[] args) {
         System.out.println("Strings--->");
         String greeting = "Hello";

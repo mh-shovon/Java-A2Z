@@ -9,7 +9,7 @@ public class JavaMethodOverloading {
         System.out.println("Integer Sum: " + sum1);
         System.out.println("Double Sum: " + sum2);
 
-        //With overloading we can do this by following the bellow thing--->
+        //With overloading, we can do this by following the bellow thing--->
         System.out.println("\n"+"With Overloading--->");
         int sum3 = addTwoNumber(5, 5);
         double sum4 = addTwoNumber(5.5, 4.6);
@@ -30,7 +30,7 @@ public class JavaMethodOverloading {
         return a + b;
     }
 
-    //With overloading we can do this by following the bellow thing--->
+    //With overloading, we can do this by following the bellow thing--->
     static int addTwoNumber(int num1, int num2){
         return num1 + num2;
     }

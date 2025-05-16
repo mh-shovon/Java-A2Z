@@ -1,8 +1,8 @@
-package Practice.BeginnerJava;
+package Practice.JavaBasicsTutorial;
 
 import java.util.Scanner;
 
-public class ArithmaticOperator {
+public class ArithmeticOperator {
     public static void main(String[] args) {
         int num1, num2, Sum, Sub, Mul;
         double Div;

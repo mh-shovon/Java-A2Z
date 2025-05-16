@@ -11,6 +11,9 @@ public class TypeCasting {
         double myDouble2 = 10.58;
         int myInt2 = (int) myDouble2;
         System.out.println("Print My Double: "+myDouble2);
-        System.out.println("Print My Integer: "+myInt2); 
+        System.out.println("Print My Integer: "+myInt2);
+
+        System.out.printf("Print My Double: "+myDouble2);
+        System.out.printf("Print My Integer: "+myInt2);
     }
 }
