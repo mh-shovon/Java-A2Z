@@ -1,6 +1,6 @@
 package NextGenJavaByKamrul.Day_01;
 
-public class day_1_PrimitiveVariables {
+public class Day_1_PrimitiveVariables {
     public static void main(String[] args) {
         byte a = 100;
         short b = 20000;

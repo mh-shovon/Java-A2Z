@@ -1,6 +1,6 @@
 package NextGenJavaByKamrul.Day_01;
 
-public class day_1_Array {
+public class Day_1_Array {
     public static void main(String[] args) {
         int [] age = {20, 25, 30, 55, 29};
         System.out.println(age[3]);

@@ -1,6 +1,6 @@
 package NextGenJavaByKamrul.Day_01;
 
-public class day_1_While_Loop {
+public class Day_1_While_Loop {
     public static void main(String[] args) {
         int i = 1;
         while(i <= 100){

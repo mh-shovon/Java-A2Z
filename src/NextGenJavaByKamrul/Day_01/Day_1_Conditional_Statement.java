@@ -1,6 +1,6 @@
 package NextGenJavaByKamrul.Day_01;
 
-public class day_1_Conditional_Statement {
+public class Day_1_Conditional_Statement {
     public static void main(String[] args) {
         int number = 0;
 
