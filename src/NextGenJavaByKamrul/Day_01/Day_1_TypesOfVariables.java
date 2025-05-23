@@ -19,7 +19,7 @@ public class Day_1_TypesOfVariables {
     public static void main(String[] args) {
         Day_1_TypesOfVariables obj1 = new Day_1_TypesOfVariables("Shovon", 101);
         obj1.displayInformation();
-        Day_1_TypesOfVariables obj2 = new Day_1_TypesOfVariables("Potter", 102);
+        Day_1_TypesOfVariables obj2 = new Day_1_TypesOfVariables("Karim", 102);
         obj2.displayInformation();
 
         System.out.println("University Name : " + Day_1_TypesOfVariables.universityName);
