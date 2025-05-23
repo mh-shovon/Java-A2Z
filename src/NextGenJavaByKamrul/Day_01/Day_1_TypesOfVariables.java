@@ -5,7 +5,7 @@ public class Day_1_TypesOfVariables {
     int id;
     static String universityName = "BUBT";
 
-    Day_1_TypesOfVariables(String n, int i){ //n and i are local variables and are accessible only within this method.
+    Day_1_TypesOfVariables(String n, int i){ //n and I are local variables and are accessible only within this method.
         name = n;
         id = i;
     }
@@ -17,7 +17,7 @@ public class Day_1_TypesOfVariables {
     }
 
     public static void main(String[] args) {
-        Day_1_TypesOfVariables obj1 = new Day_1_TypesOfVariables("shovon", 101);
+        Day_1_TypesOfVariables obj1 = new Day_1_TypesOfVariables("Shovon", 101);
         obj1.displayInformation();
         Day_1_TypesOfVariables obj2 = new Day_1_TypesOfVariables("Potter", 102);
         obj2.displayInformation();
