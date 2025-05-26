@@ -1,4 +1,4 @@
-package ProblemSolving;
+package ProblemSolving.BeeProlems;
 
 import java.util.Scanner;
 
