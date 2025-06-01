@@ -16,6 +16,7 @@ public class P02_ReverseAnInteger {
             reverseNumber = reverseNumber * 10 + digit;
             number = number / 10;
         }
+
         System.out.println("Reverse Number is : " + reverseNumber);
     }
 }
